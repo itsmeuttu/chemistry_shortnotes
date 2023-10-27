@@ -7,6 +7,9 @@
     border-radius: 4px;
     
     font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 a{
@@ -37,3 +40,21 @@ body{
     margin-left: 30%;
     
 }
+
+@media only screen and (max-width: 600px)
+{
+.content{
+
+    width:80%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.main{
+    margin-left: 0%;
+}
+
+
+}
+    
